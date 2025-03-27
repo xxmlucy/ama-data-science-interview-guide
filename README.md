@@ -27,7 +27,7 @@ Each section is organized by topic and includes key concepts, common interview q
 
 - [Probability](./Data_Scientist/Probability/README.md)
   - [Basic Probability Concepts](./Data_Scientist/Probability/Basic_Concepts.md)
-  - [Baye's Rule](./Data_Scientist/Probability/Bayes_Rule.md)
+  - [Baye's Rule](./Data_Scientist/Probability/bayes_rule.md)
   - [Conditional Probability & Independence](./Data_Scientist/Probability/Conditional_Probability.md)
   - [Probability Distributions](./Data_Scientist/Probability/Probability_Distributions/README.md)
     - [Bernoulli & Binomial](./Data_Scientist/Probability/Probability_Distributions/Bernoulli_Binomial.md)
