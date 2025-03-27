@@ -1,0 +1,3 @@
+# SQL & Database
+
+This section covers SQL concepts and database knowledge required for data science interviews.
