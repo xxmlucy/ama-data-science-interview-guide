@@ -1,132 +1,137 @@
-# Data Scientist Interview Guide
+# Data Science Interview Guide
 
-Welcome to the comprehensive Data Scientist interview preparation guide. This section covers all the core competencies and knowledge areas required for data scientist roles across industries.
+A comprehensive collection of resources, cheatsheets, and preparation materials for data science interviews.
 
-## Core Knowledge Areas
+## Overview
 
-### [SQL & Database](./SQL_Database/README.md)
+This repository contains interview preparation materials for various data science roles:
+- Data Scientist
+- Data Analyst
+- Machine Learning Engineer
+- Data Engineer
 
-SQL proficiency is essential for data scientists to extract, transform, and analyze data from databases. This section covers:
+Each section is organized by topic and includes key concepts, common interview questions, and practical examples to help you prepare effectively.
 
-- [Basic SQL Commands](./SQL_Database/Basic_SQL_Commands.md) - SELECT, WHERE, GROUP BY, etc.
-- [Aggregations & Joins](./SQL_Database/Aggregations_Joins.md) - SUM, COUNT, AVG, INNER JOIN, LEFT JOIN, etc.
-- [Window Functions](./SQL_Database/Window_Functions.md) - ROW_NUMBER, RANK, PARTITION BY, etc.
-- [Database and Systems](./SQL_Database/Database_Systems.md) - RDBMS concepts, indexing, normalization
-- [SQL Interview Tips](./SQL_Database/SQL_Interview_Tips.md) - Common patterns and approaches
-- [SQL Concept Interview Questions](./SQL_Database/SQL_Concept_Questions.md) - Theory and understanding
-- [SQL Query Optimization Questions](./SQL_Database/SQL_Query_Optimization.md) - Performance improvement
-- [SQL Live Coding Questions](./SQL_Database/SQL_Live_Coding_Questions.md) - Practice problems
+## Repository Structure
 
-### [Probability](./Probability/README.md)
+### [Data Scientist](./Data_Scientist/README.md)
+- [SQL & Database](./Data_Scientist/SQL_Database/README.md)
+  - [Basic SQL Commands](./Data_Scientist/SQL_Database/Basic_SQL_Commands.md)
+  - [Aggregrations & Joins](./Data_Scientist/SQL_Database/Aggregations_Joins.md)
+  - [Window Functions](./Data_Scientist/SQL_Database/Window_Functions.md)
+  - [Database and Systems](./Data_Scientist/SQL_Database/Database_Systems.md)
+  - [SQL Interview Tips](./Data_Scientist/SQL_Database/SQL_Interview_Tips.md)
+  - [SQL Concept Interview Questions](./Data_Scientist/SQL_Database/SQL_Concept_Questions.md)
+  - [SQL Query Optimization Questions](./Data_Scientist/SQL_Database/SQL_Query_Optimization.md)
+  - [SQL Live Coding Questions](./Data_Scientist/SQL_Database/SQL_Live_Coding_Questions.md)
 
-Probability is foundational for understanding uncertainty and making decisions from data:
+- [Probability](./Data_Scientist/Probability/README.md)
+  - [Basic Probability Concepts](./Data_Scientist/Probability/Basic_Concepts.md)
+  - [Baye's Rule](./Data_Scientist/Probability/Bayes_Rule.md)
+  - [Conditional Probability & Independence](./Data_Scientist/Probability/Conditional_Probability.md)
+  - [Probability Distributions](./Data_Scientist/Probability/Probability_Distributions/README.md)
+    - [Bernoulli & Binomial](./Data_Scientist/Probability/Probability_Distributions/Bernoulli_Binomial.md)
+    - [Poisson](./Data_Scientist/Probability/Probability_Distributions/Poisson.md)
+    - [Normal](./Data_Scientist/Probability/Probability_Distributions/Normal.md)
+    - [Geometric](./Data_Scientist/Probability/Probability_Distributions/Geometric.md)
+    - [Exponential](./Data_Scientist/Probability/Probability_Distributions/Exponential.md)
+  - [Expectation, Variance, and Standard Deviation](./Data_Scientist/Probability/Expectation_Variance.md)
+  - [Markov Chain](./Data_Scientist/Probability/Markov_Chain.md)
+  - [Probability Interview Tips](./Data_Scientist/Probability/Interview_Tips.md)
+  - [Common Probability Interview Questions](./Data_Scientist/Probability/Common_Questions/README.md)
+    - [Biased Coin](./Data_Scientist/Probability/Common_Questions/Biased_Coin.md)
+    - [Monty Hall](./Data_Scientist/Probability/Common_Questions/Monty_Hall.md)
 
-- [Basic Probability Concepts](./Probability/Basic_Concepts.md) - Sample spaces, events, probability axioms
-- [Bayes' Rule](./Probability/Bayes_Rule.md) - Conditional probability and updating beliefs
-- [Conditional Probability & Independence](./Probability/Conditional_Probability.md)
-- [Probability Distributions](./Probability/Probability_Distributions/README.md) - Key distributions and their applications
-- [Expectation, Variance, and Standard Deviation](./Probability/Expectation_Variance.md)
-- [Markov Chain](./Probability/Markov_Chain.md) - State transitions and properties
-- [Probability Interview Tips](./Probability/Interview_Tips.md)
-- [Common Probability Interview Questions](./Probability/Common_Questions/README.md) - Classic problems explained
+- [Statistics](./Data_Scientist/Statistics/README.md)
+  - [Basic Statistics Concepts](./Data_Scientist/Statistics/Basic_Concepts.md)
+  - [Law of Large Numbers](./Data_Scientist/Statistics/Law_of_Large_Numbers.md)
+  - [Central Limit Theorem](./Data_Scientist/Statistics/Central_Limit_Theorem.md)
+  - [Hypothesis Testing](./Data_Scientist/Statistics/Hypothesis_Testing/README.md)
+    - [z-test for proportions](./Data_Scientist/Statistics/Hypothesis_Testing/Z_Test_Proportions.md)
+    - [z-test for means](./Data_Scientist/Statistics/Hypothesis_Testing/Z_Test_Means.md)
+    - [two sample t-test](./Data_Scientist/Statistics/Hypothesis_Testing/Two_Sample_T_Test.md)
+    - [one sample t-test](./Data_Scientist/Statistics/Hypothesis_Testing/One_Sample_T_Test.md)
+    - [chi-square](./Data_Scientist/Statistics/Hypothesis_Testing/Chi_Square.md)
+    - [ANOVA](./Data_Scientist/Statistics/Hypothesis_Testing/ANOVA.md)
+    - [p-values](./Data_Scientist/Statistics/Hypothesis_Testing/P_Values.md)
+    - [confidence intervals](./Data_Scientist/Statistics/Hypothesis_Testing/Confidence_Intervals.md)
+    - [Type I and Type II errors, Power](./Data_Scientist/Statistics/Hypothesis_Testing/Type_I_II_Errors.md)
+    - [MLE and MAP](./Data_Scientist/Statistics/Hypothesis_Testing/MLE_MAP.md)
+  - [A/B Testing](./Data_Scientist/Statistics/AB_Testing/README.md)
+    - [Sample Size](./Data_Scientist/Statistics/AB_Testing/Sample_Size.md)
+    - [Experiment Design](./Data_Scientist/Statistics/AB_Testing/Experiment_Design.md)
+    - [Statistical Analysis](./Data_Scientist/Statistics/AB_Testing/Statistical_Analysis.md)
+    - [Two sample test of proportions](./Data_Scientist/Statistics/AB_Testing/Two_Sample_Proportions.md)
+    - [Two sample test of means](./Data_Scientist/Statistics/AB_Testing/Two_Sample_Means.md)
+    - [Multiple testing problems](./Data_Scientist/Statistics/AB_Testing/Multiple_Testing.md)
+    - [Results Interpretation](./Data_Scientist/Statistics/AB_Testing/Results_Interpretation.md)
+    - [Spillover effects & network effects](./Data_Scientist/Statistics/AB_Testing/Spillover_Network_Effects.md)
+    - [Common A/B Testing Interview Questions](./Data_Scientist/Statistics/AB_Testing/Common_Questions.md)
+  - [Causal Inference](./Data_Scientist/Statistics/Causal_Inference/README.md)
+    - [Basics of Causality](./Data_Scientist/Statistics/Causal_Inference/Basics.md)
+    - [Simpson's Paradox](./Data_Scientist/Statistics/Causal_Inference/Simpsons_Paradox.md)
+    - [PSM](./Data_Scientist/Statistics/Causal_Inference/PSM.md)
+    - [DID](./Data_Scientist/Statistics/Causal_Inference/DID.md)
+    - [Uplift Modeling](./Data_Scientist/Statistics/Causal_Inference/Uplift_Modeling.md)
 
-### [Statistics](./Statistics/README.md)
+- [Machine Learning](./Data_Scientist/Machine_Learning/README.md)
+  - [Supervised vs Unsupervised Learning](./Data_Scientist/Machine_Learning/Supervised_Unsupervised.md)
+  - [ML Algorithms](./Data_Scientist/Machine_Learning/ML_Algorithms/README.md)
+    - [Linear Regression](./Data_Scientist/Machine_Learning/ML_Algorithms/Linear_Regression.md)
+    - [Logistic Regression](./Data_Scientist/Machine_Learning/ML_Algorithms/Logistic_Regression.md)
+    - [Decision Tree](./Data_Scientist/Machine_Learning/ML_Algorithms/Decision_Tree.md)
+    - [Random Forest](./Data_Scientist/Machine_Learning/ML_Algorithms/Random_Forest.md)
+    - [XGBoost](./Data_Scientist/Machine_Learning/ML_Algorithms/XGBoost.md)
+    - [Support Vector Machines (SVM)](./Data_Scientist/Machine_Learning/ML_Algorithms/SVM.md)
+    - [Neural Networks](./Data_Scientist/Machine_Learning/ML_Algorithms/Neural_Networks.md)
+    - [K-Means Clustering](./Data_Scientist/Machine_Learning/ML_Algorithms/K_Means.md)
+    - [Hierarchical Clustering](./Data_Scientist/Machine_Learning/ML_Algorithms/Hierarchical_Clustering.md)
+    - [DBSCAN](./Data_Scientist/Machine_Learning/ML_Algorithms/DBSCAN.md)
+    - [PCA](./Data_Scientist/Machine_Learning/ML_Algorithms/PCA.md)
+  - [The Math Behind Machine Learning](./Data_Scientist/Machine_Learning/Math/README.md)
+    - [Linear Algebra](./Data_Scientist/Machine_Learning/Math/Linear_Algebra.md)
+    - [Calculus](./Data_Scientist/Machine_Learning/Math/Calculus.md)
+    - [Gradient Descent](./Data_Scientist/Machine_Learning/Math/Gradient_Descent.md)
+  - [Model Evaluation and Selection](./Data_Scientist/Machine_Learning/Model_Evaluation/README.md)
+    - [Bias-Variance Trade-off](./Data_Scientist/Machine_Learning/Model_Evaluation/Bias_Variance.md)
+    - [Overfitting & Underfitting](./Data_Scientist/Machine_Learning/Model_Evaluation/Overfitting_Underfitting.md)
+    - [Regularization](./Data_Scientist/Machine_Learning/Model_Evaluation/Regularization.md)
+    - [Interpretability & Explainability](./Data_Scientist/Machine_Learning/Model_Evaluation/Interpretability.md)
+  - [Evaluation Metrics](./Data_Scientist/Machine_Learning/Evaluation_Metrics/README.md)
+    - [Precision, Recall & F1-score](./Data_Scientist/Machine_Learning/Evaluation_Metrics/Precision_Recall_F1.md)
+    - [RMSE/MSE](./Data_Scientist/Machine_Learning/Evaluation_Metrics/RMSE_MSE.md)
+    - [ROC AUC](./Data_Scientist/Machine_Learning/Evaluation_Metrics/ROC_AUC.md)
 
-Statistics is crucial for extracting insights and making inferences from data:
+- [Other Concepts](./Data_Scientist/Other_Concepts/README.md)
+  - [Time Series Forecasting](./Data_Scientist/Other_Concepts/Time_Series.md)
+  - [Computer Vision](./Data_Scientist/Other_Concepts/Computer_Vision.md)
+  - [Reinforcement Learning](./Data_Scientist/Other_Concepts/Reinforcement_Learning.md)
 
-- [Basic Statistics Concepts](./Statistics/Basic_Concepts.md) - Descriptive and inferential statistics
-- [Law of Large Numbers](./Statistics/Law_of_Large_Numbers.md)
-- [Central Limit Theorem](./Statistics/Central_Limit_Theorem.md)
-- [Hypothesis Testing](./Statistics/Hypothesis_Testing/README.md) - Statistical tests and their applications
-- [A/B Testing](./Statistics/AB_Testing/README.md) - Experiment design and analysis
-- [Causal Inference](./Statistics/Causal_Inference/README.md) - Determining cause and effect relationships
+- [Case Study](./Data_Scientist/Case_Study/README.md)
+  - [Diagnose a Problem](./Data_Scientist/Case_Study/Diagnose_Problem.md)
+  - [Measure Success](./Data_Scientist/Case_Study/Measure_Success.md)
+  - [Launch or not](./Data_Scientist/Case_Study/Launch_Decision.md)
 
-### [Machine Learning](./Machine_Learning/README.md)
+### [Data Analyst](./Data_Analyst/README.md)
+- Coming soon...
 
-Machine Learning skills are essential for predictive modeling and data-driven decisions:
+### [Machine Learning Engineer](./Machine_Learning_Engineer/README.md)
+- Coming soon...
 
-- [Supervised vs Unsupervised Learning](./Machine_Learning/Supervised_Unsupervised.md)
-- [ML Algorithms](./Machine_Learning/ML_Algorithms/README.md) - Common algorithms and their applications
-- [The Math Behind Machine Learning](./Machine_Learning/Math/README.md) - Mathematical foundations
-- [Model Evaluation and Selection](./Machine_Learning/Model_Evaluation/README.md) - Metrics and validation techniques
-- [Evaluation Metrics](./Machine_Learning/Evaluation_Metrics/README.md) - How to measure model performance
+### [Data Engineer](./Data_Engineer/README.md)
+- Coming soon...
 
-### [Other Concepts](./Other_Concepts/README.md)
+## How to Use This Guide
 
-Additional specialized knowledge areas that may be relevant:
+1. Start with the README for your target role (e.g., [Data Scientist](./Data_Scientist/README.md))
+2. Review the core topics for your role
+3. Practice with the common interview questions and case studies
+4. Use the cheatsheets for quick reference before interviews
 
-- [Time Series Forecasting](./Other_Concepts/Time_Series.md)
-- [Computer Vision](./Other_Concepts/Computer_Vision.md)
-- [Reinforcement Learning](./Other_Concepts/Reinforcement_Learning.md)
+## Contributing
 
-### [Case Study](./Case_Study/README.md)
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Practice for open-ended data science problems commonly asked in interviews:
+## License
 
-- [Diagnose a Problem](./Case_Study/Diagnose_Problem.md) - Identifying issues in metrics or models
-- [Measure Success](./Case_Study/Measure_Success.md) - Defining KPIs and success criteria
-- [Launch or not](./Case_Study/Launch_Decision.md) - Making decisions based on data
-
-## Interview Preparation Strategy
-
-### 1. Assess Your Skills
-
-Start by identifying your strengths and weaknesses across the knowledge areas. Focus your study time on areas where you need improvement.
-
-### 2. Study Core Concepts
-
-Review the fundamental concepts in each area, ensuring you understand both the theory and practical applications.
-
-### 3. Practice Problems
-
-Work through example problems and interview questions. Practice explaining your thought process out loud.
-
-### 4. Practice SQL Daily
-
-SQL questions appear in almost every data science interview. Practice regularly with platforms like LeetCode, HackerRank, or StrataScratch.
-
-### 5. Prepare for Case Studies
-
-Case studies test your ability to approach open-ended problems. Practice framing problems, identifying metrics, and communicating your analysis.
-
-### 6. Mock Interviews
-
-Conduct mock interviews with peers or mentors to get feedback on your communication and problem-solving approaches.
-
-## Common Interview Formats
-
-### Technical Screen
-
-- Usually 45-60 minutes
-- SQL questions
-- Probability and statistics questions
-- Basic ML concepts
-- Coding questions (Python/R)
-
-### Take-Home Assignment
-
-- Data analysis or modeling task
-- Typically 2-5 hours to complete
-- Focus on clean code, clear documentation, and insightful analysis
-
-### Onsite/Virtual Loop
-
-- Multiple interview rounds (4-6 typically)
-- SQL and coding rounds
-- Statistical reasoning and ML rounds
-- Case study or business problem
-- Behavioral questions
-- System design for senior roles
-
-## Interview Success Tips
-
-1. **Communicate clearly**: Explain your thought process step-by-step.
-2. **Ask clarifying questions**: Ensure you understand the problem before solving it.
-3. **Structure your approach**: Outline how you'll tackle a problem before diving into details.
-4. **Connect to business context**: Relate technical concepts to business value.
-5. **Be honest about limitations**: If you don't know something, acknowledge it and describe how you'd approach learning it.
-6. **Show passion for data**: Demonstrate curiosity and enthusiasm for solving problems with data.
-
----
-
-[Back to Main Page](../README.md)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
